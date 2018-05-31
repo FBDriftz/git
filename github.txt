@@ -6,3 +6,17 @@
 公钥是拿来加密的，一个文件拿公钥加密之后，只能用私钥才能解开。
 
 公钥导入之后才有权限提交代码。
+
+Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
